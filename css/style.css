@@ -90,6 +90,8 @@ header{
 .img-a{
     z-index: 1;
 }
+
+/* hover */
 .img-hoover{
     z-index: -1;
     position: absolute;
@@ -102,6 +104,7 @@ header{
 
 .card__heart:hover{
     color: red;
+    cursor: pointer;
 }
 /* description */
 .description__brand{

@@ -30,7 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-    font-size: 14px;
+    font-size: 15px;
     height: 50px;
 }
 .nav__list{
@@ -43,6 +43,7 @@ header{
 
 .row{
     flex-wrap: wrap;
+    padding-top: 50px;
 }
 .col-4{
     width: calc(100% / 3);
@@ -80,4 +81,45 @@ header{
     font-size: 40px;
     padding: 0px 10px;
     z-index: 10;
+}
+
+.img-a{
+    z-index: 1;
+}
+.img-hoover{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card:hover .img-hoover{
+    z-index: 10;
+}
+
+.card__heart:hover{
+    color: red;
+}
+/* description */
+.description__brand{
+    font-weight: normal;
+    font-size: 14px;
+}
+.description__type{
+    font-size: 17px;
+}
+.actual-price{
+    color: red;
+}
+.old-price{
+    text-decoration: line-through;
+}
+
+/* footer layout */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+.footer-container{
+    justify-content: space-between;
+    align-items: center;
 }

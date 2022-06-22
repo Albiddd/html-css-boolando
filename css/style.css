@@ -38,6 +38,10 @@ header{
     gap: 20px;
     font-weight: 700;
 }
+.nav__icon{
+    width: 16px;
+    height: 16px;
+}
 
 /* Cards layout */
 
@@ -118,8 +122,21 @@ header{
 footer{
     background-color: #1A1A1A;
     color: white;
+    height: 110px;
 }
 .footer-container{
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+}
+
+.social__icon{
+    width: 24px;
+    height: 24px;
+}
+
+.info__list, .social__list{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
 }
